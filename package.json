@@ -1,6 +1,6 @@
 {
-  "name": "@fx/request",
-  "version": "1.0.2",
+  "name": "@vision/request",
+  "version": "1.0.4",
   "description": "The HTTP client for the fl framework",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
@@ -31,20 +31,18 @@
   "author": "francisxihe",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.28.0"
+  },
+  "devDependencies": {
     "@babel/core": "^7.24.0",
     "@rollup/plugin-json": "^6.1.0",
-    "@types/lodash-es": "^4.17.12",
-    "axios": "^0.27.2",
-    "lodash": "^4.17.21",
-    "lodash-es": "^4.17.21",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "rollup-plugin-uglify": "^6.0.4",
-    "typescript": "^5.4.2"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.17.0"
+    "typescript": "^5.4.2",
+    "lodash-es": "^4.17.21",
+    "@types/lodash-es": "^4.17.12"
   }
 }

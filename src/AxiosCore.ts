@@ -68,7 +68,7 @@ export default class CoreRequest {
 
     const axiosCancel = new AxiosCancel();
 
-    this.instance.interceptors.request.use((config: AxiosRequestConfig) => {
+    this.instance.interceptors.request.use((config) => {
       // @ts-ignore
       // 如果忽略重复请求开启，则直接返回
       const { ignoreRepeatRequest } = config.requestOptions;
